@@ -1,0 +1,99 @@
+@media(max-width: 1200px) {
+    .intro {
+        height: 750px;
+    }
+    .about_box {
+        
+        flex-direction: column;
+    }
+    .about_right {
+        max-width: 1200px;
+        width: 100%;
+    }
+    .catalog_box {
+        gap: 15px;
+        overflow: scroll;
+    }
+    .catalog_list {
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 850px) {
+    .intro {
+        height: 650px;
+    }
+    .intro_title {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .intro_text {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .intro_link {
+        font-size: 17px;
+        padding: 12px 75px;
+    }
+    .footer_box {
+        max-height: 180px;
+        height: 100%;
+    }
+    .catalog_list img {
+        width: 250px;
+    }
+    .about_box {
+        gap: 15px;
+    }
+    .about_title {
+        margin: 40px 0 40px 0;
+    }
+    .catalog_title {
+        margin: 50px 0 50px 0;
+    }
+    .catalog_box {
+        margin-bottom: 80px;
+    }
+    .contacts_title {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .contacts_box {
+        margin-bottom: 80px;
+    }
+}
+@media(max-width: 800px) {
+    .nav_img {
+        padding: 20px 0;
+    }
+    .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        margin-bottom: 20px;
+    }
+    .nav_list {
+        flex-direction: column;
+        position: fixed;
+        background-color: darkcyan;
+        top: 0;
+        right: 0;
+        padding: 30px 15px;
+        z-index: 99;
+        transform: translateX(100%);
+        transition: 0.5s;
+        gap: 20px;
+    }
+    .nav_link {
+        margin: 50px;
+    }
+    .menu{
+        display: block;
+    }
+    .close{
+        display: block;
+    }
+    #checkbox:checked~.nav_list {
+        transform: translateX(0%);
+    }
+}
