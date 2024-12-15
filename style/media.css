@@ -1,6 +1,6 @@
 @media(max-width: 1200px) {
     .intro {
-        height: 750px;
+        height: 800px;
     }
     .about_box {
         
@@ -20,7 +20,7 @@
 }
 @media(max-width: 850px) {
     .intro {
-        height: 650px;
+        height: 750px;
     }
     .intro_title {
         font-size: 70px;
@@ -62,6 +62,9 @@
     }
 }
 @media(max-width: 800px) {
+    .intro {
+        height: 700px;
+    }
     .nav_img {
         padding: 20px 0;
     }
@@ -77,12 +80,15 @@
         position: fixed;
         background-color: darkcyan;
         top: 0;
-        right: 0;
+        left: 0;
         padding: 30px 15px;
         z-index: 99;
-        transform: translateX(100%);
+        transform: translateX(-100%);
         transition: 0.5s;
         gap: 20px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
     }
     .nav_link {
         margin: 50px;
@@ -96,4 +102,253 @@
     #checkbox:checked~.nav_list {
         transform: translateX(0%);
     }
+}
+@media(max-width: 700px) {
+    .intro {
+        height: 600px;
+    }
+    .intro_title {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    .intro_text {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .intro_link {
+        font-size: 16px;
+        padding: 12px 65px;
+    }
+    .about_title {
+        margin: 30px 0;
+    }
+    .catalog_box {
+        margin-bottom: 60px;
+    }
+    .catalog_title {
+        margin: 30px 0;
+    }
+    .catalog_list {
+        height: 340px;
+    }
+    .catalog_list img{
+        width: 240px;
+    }
+    .contacts_box {
+        margin-bottom: 70px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contacts_title {
+        margin-bottom: 30px;
+    }
+    .footer_list {
+        margin-bottom: 40px;
+    }
+    .close img {
+        width: 27px;
+    }
+}
+@media(max-width: 600px) {
+    .intro {
+        height: 500px;
+    }
+    .nav_input {
+        width: 250px;
+    }
+    .intro_title {
+        font-size: 50px;
+    }
+    .intro_text {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .intro_link {
+        font-size: 16px;
+        padding: 11px 60px;
+    }
+    .about_title {
+        font-size: 35px;
+        margin: 25px 0;
+    }
+    .about_text {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .catalog_box {
+        margin-bottom: 50px;
+    }
+    .catalog_title {
+        font-size: 35px;
+        margin: 25px 0;
+    }
+    .catalog_list {
+        height: 330px;
+    }
+    .catalog_list img{
+        width: 230px;
+    }
+    .catalog_link {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    .contacts_box {
+        margin-bottom: 60px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contacts_title {
+        margin-bottom: 30px;
+    }
+    .contacts_text {
+        font-size: 18px;
+    }
+    .contacts_tel {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .contacts_mail {
+        font-size: 18px;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+    .footer_list {
+        margin-bottom: 35px;
+    }
+}
+@media(max-width: 470px) {
+    .intro {
+        height: 450px;
+    }
+    .nav_img img {
+        width: 80px;
+    }
+    .nav_input {
+        width: 200px;
+    }
+    .nav_input input {
+        width: 150px;
+    }
+    .intro_title {
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .intro_text {
+        font-size: 18px;
+        margin-bottom: 18px;
+        line-height: 25px;
+    }
+    .intro_link {
+        font-size: 16px;
+        padding: 10px 55px;
+    }
+    .about_title {
+        font-size: 35px;
+        margin: 20px 0;
+    }
+    .about_text {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    .catalog_box {
+        margin-bottom: 40px;
+    }
+    .catalog_title {
+        font-size: 35px;
+        margin: 20px 0;
+    }
+    .catalog_list {
+        height: 320px;
+    }
+    .catalog_list img{
+        width: 220px;
+    }
+    .catalog_link {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .contacts_box {
+        margin-bottom: 50px;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .contacts_title {
+        margin-bottom: 25px;
+    }
+    .contacts_text {
+        font-size: 16px;
+    }
+    .contacts_tel {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .contacts_mail {
+        font-size: 16px;
+    }
+    .footer {
+        padding-top: 25px;
+    }
+    .footer_list {
+        margin-bottom: 30px;
+    }
+
+}
+@media(max-width: 390px) {
+    .nav_input input {
+        width: 130px;
+    }
+    .intro {
+        width: 400px;
+    }
+    .about_title {
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .catalog_title {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .catalog_box {
+        margin-bottom: 30px;
+    }
+    .catalog_title {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .catalog_list {
+        height: 310px;
+    }
+    .catalog_list img{
+        width: 210px;
+    }
+    .catalog_link {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .contacts_box {
+        margin-bottom: 40px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contacts_title {
+        margin-bottom: 20px;
+    }
+    .contacts_text {
+        font-size: 15px;
+    }
+    .contacts_tel {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .contacts_mail {
+        font-size: 15px;
+    }
+    .footer {
+        padding-top: 20px;
+    }
+    .footer_list {
+        margin-bottom: 25px;
+    }
+
 }
