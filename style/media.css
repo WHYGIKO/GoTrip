@@ -148,6 +148,9 @@
     .close img {
         width: 27px;
     }
+    .menu img {
+        width: 27px;
+    }
 }
 @media(max-width: 600px) {
     .intro {

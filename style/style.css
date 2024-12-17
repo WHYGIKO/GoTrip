@@ -30,6 +30,7 @@
     display: flex;
 }
 .nav_link {
+    padding-bottom: 5px;
     color: #fff;
     text-decoration: none;
     font-family: Rubik;
@@ -37,7 +38,8 @@
     font-weight: 500;
     line-height: 18.96px;
     margin: 30px;
-    transition: 0.3s
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
 }
 .nav_input {
     display: flex;
@@ -66,8 +68,7 @@
     background-color: darkcyan;
 }
 .nav_link:hover {
-    border-bottom: 3px solid white;
-    transition: width 0.5s ease, left 0.5s ease;
+    border-color: #fff;
 }
 .intro {
     background-image: url(../images/introbg.svg);
