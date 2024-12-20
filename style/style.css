@@ -236,6 +236,7 @@
     margin-bottom: 59px;
 }
 .footer_link {
+    padding-bottom: 5px;
     text-decoration: none;
     justify-content: space-between;
     color: #fff;
@@ -243,6 +244,8 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 18.96px;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
 
 }
 .footer_text {
@@ -253,8 +256,7 @@
     line-height: 16.59px;
 }
 .footer_link:hover {
-    border-bottom: 3px solid white;
-    transition: width 0.5s ease, left 0.5s ease;
+    border-color: #fff;
 }
 .menu,
 .close {

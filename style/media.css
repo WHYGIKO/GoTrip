@@ -221,6 +221,9 @@
     }
 }
 @media(max-width: 470px) {
+    .nav_link {
+        font-size: 14px;
+    }
     .intro {
         height: 450px;
     }
@@ -229,6 +232,7 @@
     }
     .nav_input {
         width: 200px;
+        height: 30px;
     }
     .nav_input input {
         width: 150px;
@@ -302,7 +306,11 @@
         width: 130px;
     }
     .intro {
-        width: 400px;
+        height: 390px;
+    }
+    .nav_input {
+        width: 180px;
+        height: 25px;
     }
     .about_title {
         margin-bottom: 15px;
@@ -353,5 +361,36 @@
     .footer_list {
         margin-bottom: 25px;
     }
-
+    .menu img,
+    .close img {
+    width: 23px;
+    }
+    .nav_img img {
+        width: 70px;
+    }
+}
+@media(max-width: 340px) {
+    .intro {
+        height: 340px;
+    }
+    .nav_img img {
+        width: 60px;
+    }
+    .nav_input{
+        width: 170px;
+        height: 22px;
+    }
+    .nav_input button {
+        font-size: 11px;
+    }
+    .catalog_list {
+        width: 290px;
+    }
+    .menu img,
+    .close img {
+        width: 20px;
+    }
+    .nav_link {
+        font-size: 14px;
+    }
 }
